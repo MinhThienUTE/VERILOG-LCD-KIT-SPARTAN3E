@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/cuoiky1/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/cuoiky1/xst"
+elaborate
+-ifn LCD.prj
+-ifmt mixed

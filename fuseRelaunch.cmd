@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/cuoiky1/testt_isim_beh.exe" -prj "/home/ise/cuoiky1/testt_beh.prj" "work.testt" "work.glbl" 

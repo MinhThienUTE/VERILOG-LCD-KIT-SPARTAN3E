@@ -1,0 +1,541 @@
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/spartan3e.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/spartan3e.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/spartan3e.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/ise/Downloads/spartan3e.ucf -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1) - Copy.ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1) - Copy.ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1) - Copy.ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1) - Copy.ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
+xst -intstyle ise -ifn "/home/ise/cuoiky1/modultop.xst" -ofn "/home/ise/cuoiky1/modultop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Downloads/kit_Spartan3E_starter_iopin (1).ucf" -p xc3s500e-fg320-4 modultop.ngc modultop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o modultop_map.ncd modultop.ngd modultop.pcf 
+par -w -intstyle ise -ol high -t 1 modultop_map.ncd modultop.ncd modultop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modultop.twx modultop.ncd -o modultop.twr modultop.pcf 
+bitgen -intstyle ise -f modultop.ut modultop.ncd 
