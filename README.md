@@ -1,25 +1,25 @@
-FPGA Kit Control Program
+**FPGA Kit Control Program**
 This project involves designing a control program using an FPGA kit to achieve the following functionalities:
 
-1. LCD Display:
+**1. LCD Display:**
 
 Display student information on the first row of the LCD.
 Display the date of birth and student ID on the second row of the LCD.
 
-2. Countdown Display:
+**2. Countdown Display:**
 
 Display a countdown value from 99, decrementing by one each second until it reaches the last digit of the student ID, then stop.
 When the countdown stops, the two leftmost single LEDs should light up.
 
-3. Switch-Controlled LED Modes:
+**3. Switch-Controlled LED Modes:**
 
 Use a switch to select the control mode for 6 single LEDs:
-MODE 1: The 6 LEDs gradually light up from left to right, then gradually turn off from right to left.
-MODE 2: The 6 LEDs count down from 21 to 7, then stop.
-MODE 3: The 6 LEDs gradually light up from both the right and left sides towards the center and repeat.
-MODE 4: The 6 LEDs gradually turn off from left to right and repeat.
+_MODE 1_: The 6 LEDs gradually light up from left to right, then gradually turn off from right to left.
+_MODE 2:_ The 6 LEDs count down from 21 to 7, then stop.
+_MODE 3:_ The 6 LEDs gradually light up from both the right and left sides towards the center and repeat.
+_MODE 4_: The 6 LEDs gradually turn off from left to right and repeat.
 
-4. Speed Control:
+**4. Speed Control:**
 
 Design the circuit to change the counting and LED shifting speed between 5Hz and 20Hz.
 
